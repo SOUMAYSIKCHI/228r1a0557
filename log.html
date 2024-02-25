@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN-PAGE</title>
+    <style>
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100vw;
+            background-color: #00DBDE;
+            background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .loginn {
+            width: 800px;
+            height: 400px;
+            background-color: azure;
+            border: 2px solid aliceblue;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .loginn h1 {
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .username {
+            font-size: 2rem;
+            padding: 20px;
+        }
+
+        .pass {
+            font-size: 2rem;
+            padding: 10px;
+        }
+
+        .loginn button {
+            background-color: rgb(10, 41, 214);
+            border-radius: 10px;
+            color:azure;
+            font-size:22px;
+            font-weight: bold;
+            height: 50px;
+            width: 200px;
+        }
+
+        form input {
+            border: 2px solid black;
+            height: 30px;
+            border-radius: 5px;
+        }
+
+        form a{
+            padding-left: 15px;
+        }
+        .loginn span {
+            font-size: 25px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="loginn">
+
+            <h1>Login</h1>
+            <form action="#" method="post">
+                <div class="username">
+                    <label for="name">UserName : </label>
+                    <input type="text" name="name" id="name" placeholder="  Enter your usenname" required>
+                </div>
+                <div class="pass">
+                    <label for="password">Password : </label>
+                    <input type="password" name="password" id="password" placeholder="  Enter password" required>
+                </div>
+                <a href="">Forgot password?</a>
+            </form>
+            <button>Sign-In</button>
+            <span> Don't have an account </span>
+            <button>Register</button>
+        </div>
+    </div>
+</body>
+
+</html>
