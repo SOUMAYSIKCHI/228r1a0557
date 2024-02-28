@@ -1,2 +1,2 @@
 # 228r1a0557
-College-works
+This repo contains all college related works code
